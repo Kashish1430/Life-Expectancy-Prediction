@@ -11,12 +11,8 @@ The project was carried out as part of the **CST4050 - Component 2** coursework 
 - [Dataset](#dataset)
 - [Objective](#objective)
 - [Methodology](#methodology)
-- [Project Structure](#project-structure)
 - [Technologies Used](#technologies-used)
 - [Results](#results)
-- [How to Use](#how-to-use)
-- [Future Work](#future-work)
-- [License](#license)
 
 ## Dataset
 
@@ -63,5 +59,21 @@ The primary objective is to build a regression model that predicts **Life Expect
    - Time complexity of the pipeline was analyzed.
    - Discussed pros/cons and explored possible improvements to the pipeline.
 
-## Project Structure
+
+## Technologies Used
+- **Python**: Core programming language for the project.
+- **Pandas, NumPy**: Data manipulation and analysis.
+- **Scikit-learn**: Machine learning models and evaluation metrics.
+- **Seaborn, Matplotlib**: Data visualization.
+- **Ridge Regression, Linear Regression**: Models used for prediction.
+
+## Results
+
+- **R² Score on Train Set**: 88%
+- **R² Score on Test Set**: 54% (Initial Linear Regression model)
+- **Final Tuned Ridge Regression**:
+  - **Train Set Accuracy**: 82%
+  - **Test Set Accuracy**: 82%
+- The final model demonstrated a significant improvement in performance by addressing overfitting and selecting the best regularization parameter.
+
 
